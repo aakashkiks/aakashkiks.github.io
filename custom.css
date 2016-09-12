@@ -1,0 +1,162 @@
+body{
+	 background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),url(body.jpg);
+    background-size: cover; 
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: transparent;
+}
+
+.det{
+	color: white;
+    font-family: 'Hammersmith One', sans-serif;
+	margin-top: 280px;
+	margin-left: 150px;
+	height: 250px;
+	width: 450px;
+	font-size: 20px;
+}
+.play{
+	position: absolute;
+	top: 28%;
+	left: 75%;
+	cursor: pointer;
+}
+.playService,.playService1{
+	position: absolute;
+	top: 59%;
+	left: 72%;
+	cursor: pointer;
+}
+.playService1{
+	top: 63%;
+	left: 85%;
+
+
+}
+
+.homeT{
+	color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 50px;
+    font-size: 80px;
+    text-align: center;
+
+}
+
+.homeST{
+	color: white;
+    font-size: 35px;
+    width: 800px;
+    font-family: 'Contrail One', cursive;
+    /*margin-top: 50px;*/
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    text-align: center;
+    -webkit-animation-delay: .5s;
+
+
+}
+.a,.b,.c{
+	width: 160px;
+	height: 90px;
+	
+}
+.a,.b,.c{
+	width: 160px;
+	height: 90px;
+	position: absolute;
+	bottom: -8%;
+	transition: all cubic-bezier(0,.81,.4,1) 0.5s;
+	left: 42%;
+	background: grey;
+}
+.logo,.logo1,.logo2{
+	position: absolute;
+	top: 10%;
+	left: 15%;
+}
+.logo1{
+	top: 10%;
+	left: 15%;
+}
+.logo2{
+	top: 10%;
+	/*left: 15%;*/
+}
+
+.network{
+	position: absolute;
+	top: 85%;
+	right: 1%;
+	height: 100px;
+	width: 200px;
+}
+
+.network1{
+
+}
+.b{
+	left: 29%;
+	background: #FBC02D;
+}
+.c{
+	left: 55%;
+
+}
+
+.details{
+	position: absolute;
+	left: 10%;
+	top: 15%;
+	font-size: 60px;
+	color: white;
+	font-family: 'Roboto', sans-serif;	
+	
+}
+
+.imgs2{
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.logo1,.logo2{
+	position: absolute;
+	top: 28%;
+	left: 11%;
+	
+}
+.logo1{
+	position: absolute;
+	top: 28%;
+	left: 8%;
+}
